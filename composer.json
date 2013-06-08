@@ -1,0 +1,16 @@
+{
+    "name": "netzfabrik/googleanalytics",
+    "description": "Google Analytics tracking snippet for Zend Framework 2",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Googleanalytics": "src/"
+        },
+        "classmap": [
+        	"./Module.php"
+        ]
+    }
+}
